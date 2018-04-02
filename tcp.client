@@ -1,0 +1,76 @@
+// body-parse is necessary for posting data
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const ejs = require('ejs');
+const crc = require('crc');
+
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({extended: false}));
+
+const logger = require('morgan');
+app.use(logger());
+app.use('assets', express.static('public'));
+app.engine('html', ejs.__express);
+app.set('view engine', 'html');
+// parse application/json
+// app.use(bodyParser.json());
+
+app.use(function (req, res, next) {
+    console.log('Time: %f', Date.now());
+    // res.write('home');
+    next(); //!!!!!!!!! Important if you want to following request
+});
+
+app.get('/login', (req, res, next) => {
+    res.render('form');
+    next();
+});
+
+app.post('/login', (req, res, next) => {
+    // res.setHeader('Content-Type', 'text/plain')
+    let arr = [parseInt('fe', 16).toString(10)];
+    if (req.body.commd.toString().length > 0) {
+        arr.push(req.body.commd.toString());
+    } else {
+        arr.push('5');
+    }
+    if (req.body.path > 0) {
+        arr.push('00');
+        arr.push((req.body.path - 1).toString());
+    } else {
+        arr.push('00');
+        arr.push('00');
+    }
+    if (!req.body.switch) {
+        arr.push('00');
+        arr.push('00');
+    }
+    else {
+        arr.push('ff');
+        arr.push('00');
+    }
+    let tempBuf = Buffer.from(arr);
+    let buf = crc16Check(arr, tempBuf);
+    // console.log('arr', arr);
+    console.log('buf', buf);
+
+    // res.end(JSON.stringify(req.body, null, 2));
+    next();
+});
+
+function crc16Check(arr, buf) {
+    let crcStr = crc.crc16modbus(buf).toString(16);
+    arr.push(parseInt(crcStr.slice(crcStr.length - 2, crcStr.length), 16).toString(10));
+    arr.push(parseInt(crcStr.substr(0, crcStr.length - 2), 16).toString(10));
+    return Buffer.from(arr);
+}
+
+const PORT = 3005;
+app.listen(PORT, (err) => {
+    if (err) throw err
+    else {
+        console.log(`server listening to ${PORT}`)
+    }
+})
