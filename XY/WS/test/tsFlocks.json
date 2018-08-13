@@ -1,0 +1,239 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "buttons": [
+    [
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "下行",
+        "href": "http://127.0.0.1:9064/en/M_Run_lift/left&down&init_recycle&5000",
+        "end": "M_Run_lift"
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-warning",
+        "textContent": "急停",
+        "href": "http://127.0.0.1:9064/en/M_Run_stop/left&on&init_recycle&5000",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "上行",
+        "href": "http://127.0.0.1:9064/en/M_Run_lift/left&up&init_recycle&5000",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-Light",
+        "textContent": "",
+        "href": "http://127.0.0.1:9064",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开抽屉",
+        "href": "http://127.0.0.1:9064/en/M_Run_drawer/left&on&init_recycle&5000",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开仓库",
+        "href": "http://127.0.0.1:9064/en/M_garage_open/left&on&init_recycle&5000",
+        "end": ""
+      }
+    ],
+    [
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开左灯",
+        "href": "http://127.0.0.1:9064/en/M_illums_switch/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "关左灯",
+        "href": "http://127.0.0.1:9064/en/M_illums_switch/left&off&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开右灯",
+        "href": "http://127.0.0.1:9064/en/M_illums_switch/right&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "关右灯",
+        "href": "http://127.0.0.1:9064/en/M_illums_switch/right&off&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开电脑",
+        "href": "http://127.0.0.1:9064/en/M_PC_switch/left&on&init_recycle&5000",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "关电脑",
+        "href": "http://127.0.0.1:9064/en/M_PC_switch/left&off&init_recycle&5000",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "重启继电器",
+        "href": "http://127.0.0.1:9064/en/M_relay_switch/left&restart&restart&5000",
+        "end": ""
+      }
+    ],
+    [
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "拍照",
+        "href": "http://127.0.0.1:9064/en/getImg64/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "电机组合",
+        "href": "http://127.0.0.1:9064/en/M_lift_pack/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "临时测试",
+        "href": "http://127.0.0.1:9064/test ",
+        "end": ""
+      }
+    ],
+    [
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "电机老化测试",
+        "href": "http://127.0.0.1:9064/en/M_lift_pack/left&on&motor_aging&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-danger",
+        "textContent": "整体循环测试",
+        "href": "http://127.0.0.1:9064/loop/M_engine_loop/left&off&motor_aging&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-danger",
+        "textContent": "关闭驱控器",
+        "href": "http://127.0.0.1:9064/en/M_engine_switch/left&off&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "开启驱控器",
+        "href": "http://127.0.0.1:9064/en/M_engine_switch/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "工程重启",
+        "href": "http://127.0.0.1:9064/en/M_prj_resart/left&on&init_recycle&5000 ",
+        "end": ""
+      }
+    ],
+
+    [
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "抽屉锁检测",
+        "href": "http://127.0.0.1:9064/loop/M_switch_test_drawer/left&off&motor_aging&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-secondary",
+        "textContent": "仓库锁检测",
+        "href": "http://127.0.0.1:9064/en/M_switch_test_garage/left&off&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-danger",
+        "textContent": "停止锁检测",
+        "href": "http://127.0.0.1:9064/en/M_switch_test_end/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-Light",
+        "textContent": "",
+        "href": "http://127.0.0.1:9064",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-danger",
+        "textContent": "继电器检测",
+        "href": "http://127.0.0.1:9064/en/M_relay_test/left&on&init_recycle&5000 ",
+        "end": ""
+      },
+      {
+        "description": "",
+        "type": "button",
+        "class": "btn btn-danger",
+        "textContent": "停止继电器检测",
+        "href": "http://127.0.0.1:9064/en/M_relay_test_end/left&on&init_recycle&5000 ",
+        "end": ""
+      }
+    ]
+  ]
+}

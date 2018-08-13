@@ -1,0 +1,12 @@
+{
+    "motor": {
+        "01": "限位开关",
+        "02": "es5",
+        "03": true
+    },
+    "coils": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true
+    }
+}
