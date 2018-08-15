@@ -46,5 +46,12 @@ module.exports = {
             arr.push(aoa[i][j]);
         }
         return arr;
+    },
+    obj_arr: (obj) => {
+        let arr = [];
+        for (let key in obj) {
+            arr.push(obj[key]);
+        }
+        return arr;
     }
 };

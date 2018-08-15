@@ -10,7 +10,7 @@ for (let i = 0; i < wb.SheetNames.length; ++i) {
     const aoa = XLSX.utils.sheet_to_json(ws, {header: 1, raw: true}).slice(1);
     ths[wb.SheetNames[i]] = {}
     for (let j = 0; j < aoa[0].length; j++) {
-        ths[wb.SheetNames[i]][aoa[0][j]] = row_array.array_fix(row_array.sheet_mirror(aoa,aoa.length,j,1))
+        ths[wb.SheetNames[i]][aoa[0][j]] = row_array.array_fix(row_array.sheet_mirror(aoa, aoa.length, j, 1))
     }
 }
 fs.writeFileSync('./threshold.json', JSON.stringify(ths))

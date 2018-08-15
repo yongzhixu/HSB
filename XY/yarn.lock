@@ -243,6 +243,10 @@ ipaddr.js@1.8.0:
   version "1.8.0"
   resolved "http://registry.npm.taobao.org/ipaddr.js/download/ipaddr.js-1.8.0.tgz#eaa33d6ddd7ace8f7f6fe0c9ca0440e706738b1e"
 
+lodash@^4.17.10:
+  version "4.17.10"
+  resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.taobao.org/media-typer/download/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -406,3 +410,7 @@ xlsx@^0.13.3:
     crc-32 "~1.2.0"
     exit-on-epipe "~1.0.1"
     ssf "~0.10.2"
+
+yarn@^1.9.4:
+  version "1.9.4"
+  resolved "http://registry.npm.taobao.org/yarn/download/yarn-1.9.4.tgz#3b82d8446b652775723900b470d966861976924b"
