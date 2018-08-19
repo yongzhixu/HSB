@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="491311c7-5d9b-43b0-b13f-8e0d4ab66412" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XY/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/XY/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XY/config/thresParse.js" beforeDir="false" afterPath="$PROJECT_DIR$/XY/config/thresParse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XY/config/threshold.json" beforeDir="false" afterPath="$PROJECT_DIR$/XY/config/threshold.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XY/controller/cn_mid.js" beforeDir="false" afterPath="$PROJECT_DIR$/XY/controller/cn_mid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XY/controller/dt_workbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/XY/controller/dt_workbook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XY/data/PNSR.json" beforeDir="false" afterPath="$PROJECT_DIR$/XY/data/PNSR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XY/show/MIN_NSR.js" beforeDir="false" afterPath="$PROJECT_DIR$/XY/show/MIN_NSR.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +22,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MIN_NSR.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MIN_NSR.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XY/show/MIN_NSR.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thresParse.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thresParse.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XY/config/thresParse.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threshold.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XY/config/threshold.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret column="10053" selection-start-column="10053" selection-end-column="10053" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XY/common/check.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XY/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dt_init.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -45,16 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XY/config.js">
+      <file leaf-file-name="dt_workbook.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XY/controller/dt_workbook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>无相关</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,9 +107,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/XY/controller/cn_mid.js" />
-        <option value="$PROJECT_DIR$/XY/config.js" />
         <option value="$PROJECT_DIR$/XY/config/thresParse.js" />
+        <option value="$PROJECT_DIR$/XY/config/threshold.json" />
+        <option value="$PROJECT_DIR$/XY/controller/dt_init.js" />
+        <option value="$PROJECT_DIR$/XY/controller/cn_mid.js" />
+        <option value="$PROJECT_DIR$/XY/controller/dt_workbook.js" />
+        <option value="$PROJECT_DIR$/XY/config.js" />
+        <option value="$PROJECT_DIR$/XY/show/MIN_NSR.js" />
       </list>
     </option>
   </component>
@@ -88,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +160,12 @@
               <item name="HSB" type="b2602c69:ProjectViewProjectNode" />
               <item name="HSB" type="462c0819:PsiDirectoryNode" />
               <item name="XY" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HSB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HSB" type="462c0819:PsiDirectoryNode" />
+              <item name="XY" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -122,7 +178,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,14 +206,20 @@
     <configuration name="MIN_NSR.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MIN_NSR.js" working-dir="$PROJECT_DIR$/XY/show" />
     <configuration name="cn_mid.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cn_mid.js" working-dir="$PROJECT_DIR$/XY/controller" />
     <configuration name="config.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="config.js" working-dir="$PROJECT_DIR$/XY" />
+    <configuration name="dt_init.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="dt_init.js" working-dir="$PROJECT_DIR$/XY/controller" />
+    <configuration name="thresParse.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="thresParse.js" working-dir="$PROJECT_DIR$/XY/config" />
     <list>
       <item itemvalue="Node.js.MIN_NSR.js" />
       <item itemvalue="Node.js.config.js" />
       <item itemvalue="Node.js.cn_mid.js" />
+      <item itemvalue="Node.js.thresParse.js" />
+      <item itemvalue="Node.js.dt_init.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.MIN_NSR.js" />
+        <item itemvalue="Node.js.dt_init.js" />
+        <item itemvalue="Node.js.thresParse.js" />
         <item itemvalue="Node.js.cn_mid.js" />
         <item itemvalue="Node.js.config.js" />
       </list>
@@ -176,21 +237,23 @@
       <updated>1534599928698</updated>
       <workItem from="1534599930338" duration="379000" />
       <workItem from="1534601132528" duration="2256000" />
+      <workItem from="1534653435749" duration="1865000" />
+      <workItem from="1534655763627" duration="763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2635000" />
+    <option name="totallyTimeSpent" value="5263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2551724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1875862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.48" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -211,38 +274,59 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+    <entry file="file://$PROJECT_DIR$/XY/show/MIN_NSR.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="986">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XY/try.js">
+    <entry file="file://$PROJECT_DIR$/XY/config/thresParse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+    <entry file="file://$PROJECT_DIR$/XY/config/threshold.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret column="10053" selection-start-column="10053" selection-end-column="10053" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XY/try.js">
+    <entry file="file://$PROJECT_DIR$/XY/common/check.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XY/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/cn_mid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/dt_workbook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -260,10 +344,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/XY/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/XY/config/thresParse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/try.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/try.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/config/thresParse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/config/threshold.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret column="10053" selection-start-column="10053" selection-end-column="10053" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/dt_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/dt_workbook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/controller/cn_mid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/common/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XY/show/MIN_NSR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>

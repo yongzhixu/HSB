@@ -8,6 +8,7 @@ const {data_path}= require('../config')
 module.exports = {
     cn_PNSR: async() => {
         const ABCD = await dt_init.cn_ABCD(data_path)
+        // console.log(ABCD['1996Q1'])
         for (let keyY in ABCD) {
             for (let keyD in ABCD[keyY]) {
                 if ( check.contains_A(ABCD[keyY][keyD])){
@@ -16,6 +17,7 @@ module.exports = {
                         // console.log(keyY, keyD,keyA, risk.factor_risks(ABCD[keyY][keyD][keyA]))
                     }
                 } else {
+                    // console.log(keyY,keyD,ABCD[keyY][keyD]);
                     ABCD[keyY][keyD]={
                         "error":"无相关ABCD值"
                     }

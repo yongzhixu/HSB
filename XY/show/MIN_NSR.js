@@ -1,9 +1,10 @@
 const cnmid = require('../controller/cn_mid');
 const check = require('../common/check');
 const _ = require('lodash/core');
+const {data_path,p_cap}= require('../config')
 
 const verify = (slot) => {
-    if (slot.P > 0.6) {
+    if (slot.P > p_cap) {
         return true;
     }
     return false;
@@ -51,7 +52,7 @@ const arrfilter = (arr) => {
                     pnsr[key1][key2] = arrFilter[0];
                 } else {
                     // console.log(key1, key2, pnsr[key1][key2],arrFilter)
-                    pnsr[key1][key2] = {"message": "无满足条件(如：P>0.6)的值"};
+                    pnsr[key1][key2] = {"message": `无满足条件(如：P>${p_cap})的值`};
                 }
             }
         }

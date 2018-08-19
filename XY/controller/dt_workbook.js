@@ -17,22 +17,22 @@ module.exports = {
                 ths[aoa[0][j]] = {
                     "error": "数据列和阈值标题不对应"
                 };
-                return;
+                // return;
             }
             else {
-                let risk_givenHold={}
-                for(let hold = init; hold < ths[aoa[0][j]].max; hold+=ths[aoa[0][j]].step*3){
+                let risk_givenHold = {}
+                for (let hold = init; hold < ths[aoa[0][j]].max; hold += ths[aoa[0][j]].step * 3) {
                     const temp = {
                         "A": 0,
                         "B": 0,
                         "C": 0,
                         "D": 0,
-                        "ths":null
+                        "ths": null
                     };
-                    for (let i = 0; i < n-1; ++i) {
-                        factors.factors_add(temp, factors.factors_filter(aoa[i+1][j], hold, aoa[i+1][1]))
+                    for (let i = 0; i < n - 1; ++i) {
+                        factors.factors_add(temp, factors.factors_filter(aoa[i + 1][j], hold, aoa[i + 1][1]))
                     }
-                    temp['ths']=hold;
+                    temp['ths'] = hold;
                     risk_givenHold[hold] = temp;
                 }
                 const tempMax = {
@@ -40,13 +40,13 @@ module.exports = {
                     "B": 0,
                     "C": 0,
                     "D": 0,
-                    "ths":null
+                    "ths": null
 
                 };
-                for (let i = 0; i < n-1; ++i) {
-                    factors.factors_add(tempMax, factors.factors_filter(aoa[i+1][j], ths[aoa[0][j]].max, aoa[i+1][1]))
+                for (let i = 0; i < n - 1; ++i) {
+                    factors.factors_add(tempMax, factors.factors_filter(aoa[i + 1][j], ths[aoa[0][j]].max, aoa[i + 1][1]))
                 }
-                tempMax['ths']=ths[aoa[0][j]].max;
+                tempMax['ths'] = ths[aoa[0][j]].max;
                 risk_givenHold[ths[aoa[0][j]].max] = tempMax;
                 ths[aoa[0][j]] = risk_givenHold;
             }
