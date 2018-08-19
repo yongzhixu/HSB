@@ -3,10 +3,11 @@ const path = require('path');
 const check = require('../common/check')
 const risk = require('../controller/cn_risks')
 const fs = require('fs')
+const {data_path}= require('../config')
 
 module.exports = {
     cn_PNSR: async() => {
-        const ABCD = await dt_init.cn_ABCD(path.resolve(__dirname,`../data/使用数据.xlsx`))
+        const ABCD = await dt_init.cn_ABCD(data_path)
         for (let keyY in ABCD) {
             for (let keyD in ABCD[keyY]) {
                 if ( check.contains_A(ABCD[keyY][keyD])){

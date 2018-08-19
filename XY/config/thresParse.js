@@ -1,9 +1,10 @@
 const XLSX = require('xlsx');
 const fs = require('fs');
 const row_array = require('../common/row_array');
+const {data_path}= require('../config')
 
 /* get the first worksheet as an array of arrays, skip the first row */
-const wb = XLSX.readFile('../data/使用数据.xlsx');
+const wb = XLSX.readFile(data_path);
 const ths = {}
 for (let i = 0; i < wb.SheetNames.length; ++i) {
     const ws = wb.Sheets[wb.SheetNames[i]];
@@ -14,3 +15,4 @@ for (let i = 0; i < wb.SheetNames.length; ++i) {
     }
 }
 fs.writeFileSync('./threshold.json', JSON.stringify(ths))
+console.log("data init succeed!")
