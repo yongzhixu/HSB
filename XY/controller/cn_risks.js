@@ -7,17 +7,22 @@ const factor_P = (A, C) => {
     return A / (A + C);
 };
 const factor_NSR = (A, B, C, D) => {
-    return (factor_P(B, D)) / (factor_P(A, C));
+    return (factor_P(C, D)) / (factor_P(A, B));
 };
-const factor_risks = (A, B, C, D,ths) => {
+const factor_PSR = (A, B, C, D) => {
+    return (A + D) / (A + B + C + D);
+};
+const factor_risks = (A, B, C, D, ths) => {
     return {
-        "A":A,
-        "B":B,
-        "C":C,
-        "D":D,
-        "ths":ths,
-        "P": factor_P(A, C),
-        "NSR": factor_NSR(A, B, C, D)
+        "A": A,
+        "B": B,
+        "C": C,
+        "D": D,
+        "ths": ths,
+        "P": factor_P(A, B),
+        "NSR": factor_NSR(A, B, C, D),
+        "PSR": factor_PSR(A, B, C, D)
+
     }
 };
 

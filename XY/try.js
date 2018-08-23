@@ -1,7 +1,42 @@
 
 
-const cnmid = require('./controller/cn_mid');
-(async()=>{
-   const pnsr = await cnmid.cn_PNSR();
-   console.log(pnsr['1996Q1']['GDP增长率'])
-})()
+// const cnmid = require('./controller/cn_mid');
+// (async()=>{
+// //    const pnsr = await cnmid.cn_PNSR();
+// //    console.log(pnsr['1996Q1']['GDP增长率'])
+// // })()
+const _ = require('lodash');
+
+const RES =[ { A: 18,
+    B: 11,
+    C: 19,
+    D: 42,
+    ths: 16.761604392335304,
+    P: 0.6206896551724138,
+    NSR: 0.5018214936247724,
+    PSR: 0.32222222222222224 },
+    { A: 17,
+        B: 6,
+        C: 20,
+        D: 47,
+        ths: 17.948088733080798,
+        P: 0.7391304347826086,
+        NSR: 0.4038630377524144,
+        PSR: 0.25555555555555554 },
+    { A: 13,
+        B: 2,
+        C: 24,
+        D: 51,
+        ths: 19.134573073826292,
+        P: 0.8666666666666667,
+        NSR: 0.36923076923076925,
+        PSR: 0.16666666666666666 },
+    { A: 10,
+        B: 2,
+        C: 27,
+        D: 51,
+        ths: 20.321057414571786,
+        P: 0.8333333333333334,
+        NSR: 0.41538461538461535,
+        PSR: 0.13333333333333333 }]
+console.log(_.minBy(RES,"NSR").NSR)

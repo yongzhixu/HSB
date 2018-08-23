@@ -4,11 +4,11 @@ const factors_filter = (init, ths, crisis) => {
             return "A";
         }
         else {
-            return "B";
+            return "C";
         }
     } else {
         if (init > ths) {
-            return "C";
+            return "B";
         }
         else {
             return "D";
@@ -44,11 +44,11 @@ module.exports = {
                 return "A";
             }
             else {
-                return "B";
+                return "C";
             }
         } else {
             if (init > ths) {
-                return "C";
+                return "B";
             }
             else {
                 return "D";
